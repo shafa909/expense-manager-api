@@ -1,0 +1,27 @@
+{
+  "name": "expense-api",
+  "version": "1.0.0",
+  "description": "Dedoco-api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedoco-test/expense-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dedoco-test/expense-api/issues"
+  },
+  "homepage": "https://github.com/dedoco-test/expense-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
